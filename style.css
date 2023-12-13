@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%),url(bg.jpg);
+    height: 3000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+                                   /* Nav bar styling */
+.banner{
+    display: flex;
+    justify-content:space-between; 
+}
+
+.logo img{
+    color: #e50914;
+    width: 190px;
+    height: 80px;
+    margin: 4px 25px;
+    padding: 0;
+}
+
+.right{
+    /* border: 2px solid red; */
+    margin: 5px 38px;
+    padding: 15px 15px;
+}
+
+.right li{
+    display: inline-block;
+
+}
+
+#btn1{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(107, 107, 107);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 2px 10px;
+    padding: 8px 20px;   
+}
+
+#btn1:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(107, 107, 107);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 2px 10px;
+    padding: 8px 20px;   
+}
+
+#btn2{
+    background-color: #e50914;
+    color: rgb(255, 255, 255);
+    border: 2px solid #e50914;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 2px 10px;
+    padding: 8px 16px;  
+    
+}
+
+#btn2:hover{
+    background-color: #c11119;
+    border: 2px solid #c11119;
+    cursor: pointer;
+
+}
+
+                               /* landing page styling */
+
+.container{
+    /* border: 2px solid red; */
+    margin: 85px 140px ;
+    padding: 2px 2px;
+
+}
+.container h1{
+    color: white;
+    font-size: 64px;
+    margin: 0px 0px ;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+}
+
+.container h2{
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    
+}
+
+.container h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    
+}
+
+#b1{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(199, 197, 197);
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0px;
+    padding: 15px 15px; 
+    width: 400px;  
+}
+
+#b2{
+    background-color: #e50914;
+    color: rgb(255, 255, 255);
+    border: 2px solid #e50914;
+    border-radius: 4px;
+    /* font-size: 24px; */
+    font-size: 24px;
+    font-weight: bold;
+    /* margin: 2px 1px;
+    padding: 8px 16px;   */
+    margin: 15px 2px;
+    padding: 15px 30px;    
+}
+
+#b2:hover{
+    cursor: pointer;
+    background-color: #c11119;
+    border: 2px solid #c11119;
+}
+
+
+                            /* scroll down box styling */
+.box{
+    background-image:linear-gradient(333.08deg, #000235 29.2%, #010F42 71.93%, #E40913 111.25%);
+    color: antiquewhite;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    width: 1250px;
+    height: 1800px;
+    margin: 80px 50px;
+    padding: 0px 0px;
+}
+
+.line{
+    /* background-color:#120a2a ; */
+    background-color: #000125;
+    height: 8px;
+    width: 1050px;
+    margin: 0px 90px;
+}
+.parts{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.m1{
+    margin: 130px 64px ;
+    padding: 10px 0px ;
+    
+}
+
+.m1 h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.m1 h2{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#articleimg{
+    height:394.875 ;
+    width:526.5px ;
+
+}
+
+                              /* FAQ */
+.faq-container{
+    color: white;
+    background-color: #00081d;
+    width: 1000px;
+    max-height: 3000px;
+    margin: 206px 157px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+
+.faq-container h2{
+    margin: 20px 20px;
+}
+
+.faq-item{
+    border-radius: 5px;
+    margin: 20px 20px;
+    background-color: #132144;
+}
+
+.faq-item h2{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width: 800px;
+}
+
+.faq-item:hover{
+    cursor: pointer;
+    background-color: #1a2d59;
+
+
+} 
+.faq-answer{
+    display: none;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width: 800px;
+    font-size: 24px;
+    transition: 2ms;
+    animation: forwards;
+}
+
+.niche{
+    margin: 10px 10px ;
+    margin-left: 290px;
+    padding: 10px 10px ;
+}
+
+#h3{
+    color: white;
+    font-size: 20px;
+    margin-top: -150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #132144;
+    color: white;
+    padding: 8px;
+}
